@@ -21,13 +21,13 @@ The core functionality of the ENS is registering .eth domains. There are a few i
 
 Registering a domain is extremely easy using the [ENS app](https://app.ens.domains/). First search for the ENS name that you'd like. If it is not taken (if it is, head over to [OpenSea](https://opensea.io/assets/ens) and search for it), you will be presented with this screen.
 
-![ENS domain registration](https://uploads-ssl.webflow.com/5dd9663ccd7d37bf25198e1c/5ddaf8b0967a3b951b359ef9_1*JmZtvp31arC9p8eMB6FI1Q.png)
+![ENS domain registration](../assets/ENS-domain-registration.png)
 
 Once here you can click request to register which will trigger a transaction, wait 1 minute and then you can register the name. It's now yours.
 
 Now that you own a .eth domain, you want to enable all the cool features that it offers. This starts on the domain management screen.
 
-![ENS domain management](https://uploads-ssl.webflow.com/5dd9663ccd7d37bf25198e1c/5ddaf8b0967a3b58d1359efa_1*smv_7Mt5aGhtNKPepSTJPg.png)
+![ENS domain management](../assets/ENS-domain-management.png)
 
 There is a lot going on so let's put all of the pieces together:
 
@@ -39,9 +39,7 @@ There is a lot going on so let's put all of the pieces together:
 
 Once you set an Ethereum address in the address field, it will resolve in wallets such as MetaMask.
 
-![](https://uploads-ssl.webflow.com/5dd9663ccd7d37bf25198e1c/5ddaf8b0cd7d3781cb237152_1*qLi1BktjCFOJ1QEb903XVQ.png)
-
-MetaMask support for ENS names
+![MetaMask support for ENS names](../assets/MetaMask-support-for-ENS-names.png)
 
 And if you point it to an IPFS hash, you can pull up the domain at ethhub.eth/ or ethhub.eth.link for browsers that don't resolve ENS names.
 
@@ -53,12 +51,12 @@ Subdomains offer great flexibility for building on top of .eth domains. If you a
 
 If you own a .eth domain and simply want to create subdomains for your own use, the easiest way to do this is through the ENS app by clicking on the Subdomains button. This is where you can add new subdomains.
 
-![ENS Subdomain Registration](https://uploads-ssl.webflow.com/5dd9663ccd7d37bf25198e1c/5ddaf8b0967a3b29ea359efb_1*TFAij9M1PQ6LT43_Nn-NNA.png)
+![ENS Subdomain Registration](../assets/ENS-subdomain-registration.png)
 
 Once subdomains are setup, they act very similar to domains in that the owner can control them and setup records. That means something like eric.ethhub.eth can also resolve to an address and an IPFS website.
 
 ![
-ENS Subdomain Manager](https://uploads-ssl.webflow.com/5dd9663ccd7d37bf25198e1c/5ddaf8b0578babcfa2270133_1*d03OAsK3DtljwtLKSDhtIA.png)
+ENS Subdomain Manager](../assets/ENS-subdomain-manager.png)
 
 ### Allowing Anyone to Claim Subdomains on your .eth Domain
 
@@ -95,7 +93,7 @@ The ENS team has setup a [website](https://now.ens.domains/) which allows for 
 7.  Click on 'Pull requests', then 'New pull request'.
 8.  Click on 'Create pull request'.
 
-![ENSNow](https://uploads-ssl.webflow.com/5dd9663ccd7d37bf25198e1c/5ddaf8b0d31f0f455768944d_1*EObI7awG85GjvIIcvQa9FQ.png)
+![ENSNow](../assets/ENSNow.png)
 
 ### Hosting Your Own Subdomain Sale Site
 
@@ -119,6 +117,6 @@ The best place to start is on the [Subdomain Registrar GitHub page](https://git
 
 To host on [IPFS](https://docs.ipfs.io/introduction/usage/), upload the entire build folder and get your content hash. You can then put this content hash in the "records" section of any ENS domain or subdomain! Here's an example of how it will look:
 
-![Buy Ethmojis](https://uploads-ssl.webflow.com/5dd9663ccd7d37bf25198e1c/5ddaf8b0578bab551e270134_1*w23CnIdpGZcCP-X_ORZU1w.png)
+![Buy Ethmojis](../assets/buy-ethmojis.png)
 
 Congrats, you are now an expert on the Ethereum Name Service!
