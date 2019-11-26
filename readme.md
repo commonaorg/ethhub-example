@@ -40,15 +40,15 @@ order: 20
 Each content model type - documentation, blog posts, directory projects, events, jobs, etc - has it's own frontmatter types, which are described in each content model's readme.
 
 ### Section Metadata
-To designate what order a section should appear in content models like docs and indicate a proper title for a section, add a `metadata.json` file to each section's folder. 
+To designate what order a section should appear in content models like docs and indicate a proper title for a section, add a `metadata.md` file to each section's folder with the metadata in frontmatter format. 
 
-*Example Metadata.json File*
+*Example Metadata.md File*
 
 ```
-{
-  "title": "Use Cases",
-  "order": 30
-}
+---
+title: Use Cases
+order: 30
+---
 ```
 
 Note: It's recommended to increment orders by 10 so that you can easily add new sections in later. For example, to add a section between a 10-ordered section and a 20-ordered section, you'd set the new section's order to `15`.
