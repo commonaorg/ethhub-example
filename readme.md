@@ -18,16 +18,16 @@ All content is formatted as Markdown. Use this [cheatsheet](https://github.com/a
 ### Images and Files
 All images or hosted files should be added to the top-level `assets` folder. 
 
-**Image Markdown**
+*Example Image Markdown*
 
 ```![EthHub logo](./assets/ethhub.png)```
 
 To move up directories from subfolders, use `../` instead of `./` for each level you need to move up. 
 
-### Metadata
+### Page Metadata
 You can add titles, descriptions, etc. to an item via frontmatter. 
 
-**Raw Example Frontmatter:**
+*Raw Example Frontmatter:*
 
 ```
 ---
@@ -38,6 +38,20 @@ order: 20
 ```
 
 Each content model type - documentation, blog posts, directory projects, events, jobs, etc - has it's own frontmatter types, which are described in each content model's readme.
+
+### Section Metadata
+To designate what order a section should appear in content models like docs and indicate a proper title for a section, add a `metadata.json` file to each section's folder. 
+
+*Example Metadata.json File*
+
+```
+{
+  "title": "Use Cases",
+  "order": 30
+}
+```
+
+Note: It's recommended to increment orders by 10 so that you can easily add new sections in later. For example, to add a section between a 10-ordered section and a 20-ordered section, you'd set the new section's order to `15`.
 
 ----------------------------------------------
 
