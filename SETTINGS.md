@@ -7,9 +7,8 @@
 - share-image: ./assets/ethhub.png
 
 ## NEWSLETTER
-cta: Join our newsletter
-
-action-url: *placeholder*
+- cta: Join our newsletter
+- action-url: *placeholder*
 
 ## MENUS
 primary:
