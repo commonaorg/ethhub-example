@@ -1,13 +1,14 @@
 ## METADATA
-title: EthHub
-tagline: The Ethereum Information Hub
-description: EthHub provides research and resources to learn about Ethereum.
-favicon: ./assets/favicon.ico
-logo: ./assets/ethhub-logo.png
-share-image: ./assets/ethhub.png
+- title: EthHub
+- tagline: The Ethereum Information Hub
+- description: EthHub provides research and resources to learn about Ethereum.
+- favicon: ./assets/favicon.ico
+- logo: ./assets/ethhub-logo.png
+- share-image: ./assets/ethhub.png
 
 ## NEWSLETTER
 cta: Join our newsletter
+
 action-url: *placeholder*
 
 ## MENUS
