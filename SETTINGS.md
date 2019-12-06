@@ -6,9 +6,13 @@
 - logo: ./assets/ethhub-logo.png
 - share-image: ./assets/ethhub.png
 
+## SETTINGS
+- color: #3f51b5
+- google-analytics-id: none
+
 ## NEWSLETTER
 - cta: Join our newsletter
-- action-url: *placeholder*
+- action-url: none
 
 ## MENUS
 primary:
