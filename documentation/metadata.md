@@ -1,4 +1,4 @@
 ---
 title: Documentation
-order: 0
+template: documentation
 ---
