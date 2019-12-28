@@ -1,4 +1,4 @@
 ---
 title: Directory
-order: 10
+template: directory
 ---
