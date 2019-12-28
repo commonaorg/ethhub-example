@@ -1,4 +1,4 @@
 ---
 title: Blog
-order: 30
+template: blog
 ---
